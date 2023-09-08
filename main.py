@@ -7,8 +7,8 @@ import argparse
 
 def main():
 
-    fname = input("Enter file location: ")
-    tempo = input("Enter tempo of song: ")
+    fname = input("Enter file name or location: ")
+    tempo = input("Enter tempo of song: (default:100)")
     if tempo == "":
         tempo = 100
 
