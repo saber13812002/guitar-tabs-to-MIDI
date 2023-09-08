@@ -51,3 +51,16 @@ Install the required files to run on your local system:
 Run the program by typing the following in terminal:
 
     python3 main.py
+
+
+#### For Windows users
+
+ - Open cmd as run as administrator
+ - upgrade pip if prompted ```python -m pip install --upgrade pip```
+ - Install MIDIUtil:  ```pip install MIDIUtil```
+ - py main.py
+ - copy from sample_empty.txt
+ - when ask name of your file: sample_empty.txt
+ - when ask tempo set 40
+ - play output.mid file 
+ - enjoy!
